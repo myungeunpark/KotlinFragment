@@ -1,9 +1,9 @@
-# KotlinFrame
+# KotlinFragment
 
 ## 1. Flexible Fragment Addition 
 Create fragment area and change according to the cases.
 
-- source : myungeunpark/KotlinFrame/app/
+- source : myungeunpark/KotlinFragment/app/
 
 
 

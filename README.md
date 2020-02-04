@@ -17,3 +17,9 @@ Create fragment area and change according to the cases.
 
 
 ## 2. Activity to Fragment Data Sharing with Arguments 
+You can pass data (Int, String, class, etc) from Acticity to Fragment with Arguments
+
+- source : myungeunpark/KotlinFragment/datasharingarguments
+
+
+![image](https://user-images.githubusercontent.com/53125879/73796512-392f7500-4762-11ea-9f36-040a5014d030.png)

@@ -21,5 +21,12 @@ You can pass data (Int, String, class, etc) from Acticity to Fragment with Argum
 
 - source : myungeunpark/KotlinFragment/datasharingarguments
 
+![image](https://user-images.githubusercontent.com/53125879/73822398-dca47800-47aa-11ea-929f-94dedbf0493c.png)
 
-![image](https://user-images.githubusercontent.com/53125879/73796512-392f7500-4762-11ea-9f36-040a5014d030.png)
+
+## 3. Frame to Acticity Data Sharing with Interface
+You can share data (Int, String, class, etc) from fragmet to acticity with interface callback
+
+- source: myungeunpark/KotlinFragment/datasharinginterface
+
+![image](https://user-images.githubusercontent.com/53125879/73822665-74a26180-47ab-11ea-9843-5a29cf630b98.png)

@@ -1,2 +1,2 @@
-include ':app', ':kotlinacticitytoframe'
+include ':app', ':datasharingarguments', ':datasharinginterface'
 rootProject.name='KotlinFragment'

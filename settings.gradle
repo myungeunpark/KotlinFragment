@@ -1,2 +1,2 @@
-include ':app', ':datasharingarguments', ':datasharinginterface'
+include ':app', ':datasharingarguments', ':datasharinginterface', ':datasharingmvvm'
 rootProject.name='KotlinFragment'

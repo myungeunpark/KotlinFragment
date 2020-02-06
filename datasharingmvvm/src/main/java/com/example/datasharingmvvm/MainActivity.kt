@@ -11,10 +11,15 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         supportFragmentManager.beginTransaction().replace(R.id.frame1View, InputFragment()).commit()
+        supportFragmentManager.beginTransaction().replace(R.id.frame2View, SummaryFragment()).commit()
 
+        /*
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.replace(R.id.frame2View, SummaryFragment())
         fragmentTransaction.addToBackStack(null)
         fragmentTransaction.commit()
+
+        */
+
     }
 }

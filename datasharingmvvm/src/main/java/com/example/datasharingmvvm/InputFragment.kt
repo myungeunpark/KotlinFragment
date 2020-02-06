@@ -11,26 +11,23 @@ import kotlinx.android.synthetic.main.input_fragment.*
 
 class InputFragment : Fragment() {
 
+    private lateinit var viewModel: InputViewModel
+
     companion object {
         fun newInstance() = InputFragment()
     }
-
-    private lateinit var viewModel: InputViewModel
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.input_fragment, container, false)
     }
-
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProviders.of(activity!!).get(InputViewModel::class.java)
 
         inputButton.setOnClickListener {
             viewModel.setMessage(inputText.text.toString())
-
         }
     }
 

@@ -10,8 +10,9 @@
 3. Create the layout and class kt for fragment
 
 ---------------------------
+
 class MovieFragment : Fragment() {
-    // TODO: Rename and change types of parameters
+    
     private var param1: String? = null
     private var param2: String? = null
     private var param3: Int? = -1
@@ -45,7 +46,6 @@ class MovieFragment : Fragment() {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_movie, container, false)
     }
-
 
     companion object {
 
